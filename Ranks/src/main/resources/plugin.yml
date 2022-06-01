@@ -1,0 +1,30 @@
+name: Ranks
+version: '${project.version}'
+main: jochem_bergers.ranks.Main
+api-version: 1.18
+commands:
+  rank:
+    description: with this command you can give someone a diffrent rank
+  Fly:
+    description: toggle to be able to fly
+  ban:
+    description: remove someone from the server
+  setWarp:
+    description: set warp to current location
+  warp:
+    description: warp to a warp
+  warps:
+    description: show all avalible warps
+  delwarp:
+    description: delete warp
+  setHome:
+    description: set a home to current location
+  home:
+    description: teleport to a home
+  delHome:
+    description: delete a home
+  homes:
+    description: show all avalible homes
+
+
+
